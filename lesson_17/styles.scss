@@ -1,0 +1,11 @@
+.outer {
+  display: block; // it's block style
+
+  &.active {
+    background: red;
+  }
+
+  & > .inner {
+    display: inline-block;
+  }
+}

@@ -1,0 +1,31 @@
+.color-red {
+    color: red;
+}
+
+.color-blue {
+    color: blue;
+}
+
+.color-yellow {
+    color: yellow;
+}
+
+.fs-16 {
+    font-size: 16px;
+}
+
+.fs-20 {
+    font-size: 20px;
+}
+
+.page-1 {
+    font-family: ".SF NS Mono";
+    margin: 10px;
+    padding: 5px;
+}
+
+.image-thumb {
+    width: 200px;
+    height: 200px;
+}
+

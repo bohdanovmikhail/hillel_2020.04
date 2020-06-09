@@ -1,0 +1,49 @@
+.color-silver {
+    color: silver;
+}
+
+/*.color-silver h2 a {*/
+/*    color: aqua;*/
+/*}*/
+
+.color-lime {
+    color: lime;
+}
+
+.color-link1 {
+    color: aqua;
+}
+
+.color-link2 {
+    color: aquamarine;
+}
+
+p.class-name {
+
+}
+
+[href*="id"] {
+    font-style: italic;
+}
+
+/*[href^="http"][href$="/"] {*/
+/*    color: red;*/
+/*}*/
+
+[href$="3"] {
+    color: green;
+}
+
+[href*='\'google\''] {
+    color: yellow;
+}
+
+a[href^="http://"],
+a[href^="https://"] {
+    color: lightseagreen;
+    font-size: 20px;
+}
+
+
+
+

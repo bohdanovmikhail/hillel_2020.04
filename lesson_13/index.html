@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="./css/fontello.css"/>
+    <link rel="stylesheet" href="./css/animation.css"/>
+    <style>
+        .preloader {}
+    </style>
+</head>
+<body>
+<style>
+    .circle {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 55px;
+        color: white;
+
+        width: 100px;
+        height: 100px;
+        background: #005580;
+        border-radius: 50%;
+    }
+
+    .circle .icon {
+        z-index: 1;
+    }
+    .circle .shadow {
+        z-index: 0;
+        position: absolute;
+        top: 25px;
+        left: 25px;
+        color: transparent;
+        text-shadow: 0 0 10px black;
+    }
+</style>
+
+<div class="circle">
+    <div class="icon icon-spin6 animate-spin"></div>
+    <div class="shadow icon-spin6 animate-spin"></div>
+</div>
+</body>
+</html>
